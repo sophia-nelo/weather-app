@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="weatherSearch">
+      <form id="form-search">
+        <input
+          type="text"
+          placeholder="Type a city.."
+          autofocus="on"
+          autocomplete="off"
+          id="input-text"
+          class="classInputText"
+        />
+
+        <input type="submit" value="Search" class="searchButton" />
+      </form>
+
+      <button id="location-button" class="locationButton">
+        Current location
+      </button>
+    </div>
+    <span id="city" class="classCity">New York</span>
+    <div class="time">
+      <div id="day" class="classDay">mon</div>
+      <div id="hour" class="classHour">9:null</div>
+    </div>
+    <div id="description" class="classDescription">weather</div>
+    <div class="tempDegree">
+      <div id="temperature" class="classTemp">
+        <h3>
+          17<span class="degreeSymbol">°</span><span class="celSymbol">c</span>
+        </h3>
+      </div>
+    </div>
+    <div id="humidity" class="humidity">Humidity 77%</div>
+    <div id="wind" class="wind">Wind 7 km/h</div>
+    <script src="src/weekProject.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body {
+  margin-left: 30px;
+}
+
+.classCity {
+  font-size: 30px;
+  font-weight: 5;
+  position: relative;
+  top: 25px;
+  left: 15px;
+}
+.classDay {
+  font-size: 20px;
+  font-weight: 5;
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
+.classDescription {
+  font-size: 20px;
+  font-weight: 5;
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
+
+.classHour {
+  font-size: 20px;
+  font-weight: 5;
+  position: relative;
+  top: 20px;
+  left: 25px;
+}
+
+.classInputText {
+  font-size: 20px;
+  font-weight: 900px;
+  padding: 10px 20px 10px;
+  border-radius: 4px;
+  margin: 12px 25px;
+}
+.classTemp {
+  font-size: 60px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.celSymbol {
+  font-size: 35px;
+  position: relative;
+  bottom: 30px;
+  font-weight: 100;
+  left: 7px;
+}
+.degreeSymbol {
+  font-size: 20px;
+  position: relative;
+  bottom: 30px;
+  left: 5px;
+}
+.humidity {
+  font-size: 20px;
+  position: relative;
+  left: 490px;
+  bottom: 240px;
+  font-weight: 5px;
+}
+
+.searchButton {
+  background-color: rgb(85, 85, 244);
+  border-radius: 4px;
+  color: white;
+  font-size: larger;
+  padding: 14px 18px;
+}
+.time {
+  display: flex;
+  margin: 5px;
+}
+.locationButton {
+  background-color: green;
+  border-radius: 4px;
+  color: white;
+  font-size: larger;
+  padding: 14px 18px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.tempDegree {
+  margin-top: 150px;
+}
+.weatherSearch {
+  display: flex;
+}
+.wind {
+  font-size: 20px;
+  position: relative;
+  left: 490px;
+  bottom: 240px;
+  font-weight: 5px;
+}
