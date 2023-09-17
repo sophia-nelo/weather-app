@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
@@ -24,12 +24,12 @@
         Current location
       </button>
     </div>
-    <span id="city" class="classCity">New York</span>
+    <span id="city" class="classCity"></span>
     <div class="time">
-      <div id="day" class="classDay">mon</div>
-      <div id="hour" class="classHour">9:null</div>
+      <div id="day" class="classDay"></div>
+      <div id="hour" class="classHour"></div>
     </div>
-    <div id="description" class="classDescription">weather</div>
+    <div id="description" class="classDescription"></div>
     <div class="tempDegree">
       <div id="temperature" class="classTemp">
         <h3>
@@ -37,8 +37,8 @@
         </h3>
       </div>
     </div>
-    <div id="humidity" class="humidity">Humidity 77%</div>
-    <div id="wind" class="wind">Wind 7 km/h</div>
-    <script src="src/weekProject.js"></script>
+    <div id="humidity" class="humidity">Humidity</div>
+    <div id="wind" class="wind">Wind</div>
+    <script src="src/app.js"></script>
   </body>
 </html>
